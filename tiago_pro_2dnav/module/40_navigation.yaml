@@ -1,2 +1,0 @@
-navigation:
-  launch: "@base_type@_2dnav navigation.launch.py"
