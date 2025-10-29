@@ -1,0 +1,155 @@
+ros-humble-tiago-pro-rgbd-sensors (2.13.3-1jammy) jammy; urgency=high
+
+  * removed camera namespace from realsense driver
+  * Contributors: martinaannicelli
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 22 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.13.2-1jammy) jammy; urgency=high
+
+  * linters
+  * fix licenses
+  * Contributors: andreacapodacqua
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Tue, 14 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.13.1-1jammy) jammy; urgency=high
+
+  * fix deps for public release
+  * Contributors: andreacapodacqua
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Tue, 14 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.13.0-1jammy) jammy; urgency=high
+
+  * Add diagnostic analyzers
+  * Contributors: Noel Jimenez
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Thu, 10 Jul 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.12.0-1jammy) jammy; urgency=high
+
+  * use d455 config
+  * support d455
+  * remove camera_sn variable
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Thu, 17 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.11.0-1jammy) jammy; urgency=high
+
+  * Update 2 files
+    - /tiago_pro_rgbd_sensors/pipeline/00_rgbd_realsense-d455.yaml
+    - /tiago_pro_rgbd_sensors/CMakeLists.txt
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Tue, 15 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.10.0-1jammy) jammy; urgency=high
+
+  * Adopt pal configuration
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Thu, 03 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.9.0-1jammy) jammy; urgency=high
+
+  * added d455 param config
+  * Contributors: andreacapodacqua
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 19 Mar 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.8.0-1jammy) jammy; urgency=high
+
+  * add support d455
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Fri, 14 Mar 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.7.0-1jammy) jammy; urgency=high
+
+  * fix empty serial_no
+  * uniform rgbd launch
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Fri, 24 Jan 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.6.0-1jammy) jammy; urgency=high
+
+  * define rgbd variables for tiago pro
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Fri, 17 Jan 2025 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.5.0-1jammy) jammy; urgency=high
+
+  * nav deps and specifics
+  * fix dep
+  * Contributors: andreacapodacqua, antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Mon, 02 Dec 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.4.1-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Thu, 21 Nov 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.4.0-1jammy) jammy; urgency=high
+
+  * typo
+  * register nav variables and pipelines
+  * Contributors: antoniobrandi
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Thu, 14 Nov 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 23 Oct 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 23 Oct 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 16 Oct 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.1.2-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Fri, 19 Jul 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.1.1-1jammy) jammy; urgency=high
+
+  * using camera name in pipeline
+  * using variables for pipelines
+  * Contributors: andreacapodacqua
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Wed, 17 Jul 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.1.0-1jammy) jammy; urgency=high
+
+  * Added dependency and rename
+  * Added comments and composition
+  * Rename module and params
+  * Fix the rgbd pipeline
+  * Added tiago pro rgbd sensors for the head camera
+  * Contributors: sergiomoyano
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Fri, 12 Jul 2024 00:00:00 -0000
+
+ros-humble-tiago-pro-rgbd-sensors (2.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- Sergio Moyano <sergio.moyano@pal-robotics.com>  Mon, 29 Apr 2024 00:00:00 -0000
+
+
