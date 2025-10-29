@@ -1,0 +1,12 @@
+Source: ros-humble-tiago-pro-navigation
+Section: misc
+Priority: optional
+Maintainer: Andrea Capodacqua <andrea.capodacqua@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-tiago-pro-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-tiago-pro-2dnav, ros-humble-tiago-pro-laser-sensors, ros-humble-tiago-pro-rgbd-sensors, ros-humble-ros-workspace
+Description: The tiago_pro Navigation metapackage
