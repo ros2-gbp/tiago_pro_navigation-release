@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>tiago_pro_laser_sensors</name>
-  <version>2.13.3</version>
+  <version>2.14.0</version>
   <description>tiago_pro-specific laser sensors launch and config files.</description>
   <author email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</author>
   <maintainer email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</maintainer>
