@@ -2,6 +2,11 @@
 Changelog for package tiago_pro_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.14.0 (2025-12-12)
+-------------------
+* Point Cloud filter pipeline
+* Contributors: antoniobrandi
+
 2.13.3 (2025-10-22)
 -------------------
 * removed camera namespace from realsense driver
