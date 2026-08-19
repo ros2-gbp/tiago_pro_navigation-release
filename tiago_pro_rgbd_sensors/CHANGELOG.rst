@@ -2,6 +2,9 @@
 Changelog for package tiago_pro_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.15.0 (2026-07-07)
+-------------------
+
 2.14.0 (2025-12-12)
 -------------------
 * Point Cloud filter pipeline
