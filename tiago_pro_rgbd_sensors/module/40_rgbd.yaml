@@ -1,2 +1,0 @@
-rgbd:
-  launch: "tiago_pro_rgbd_sensors rgbd.launch.py camera_model:=@camera_model@"
